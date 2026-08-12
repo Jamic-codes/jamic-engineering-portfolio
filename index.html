@@ -1,0 +1,698 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>James S. Victor | Engineering Portfolio</title>
+
+    <meta name="description"
+        content="Engineering portfolio of James S. Victor, an aspiring Mechatronics Engineer from B. W. Harris Episcopal High School.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-mark">J</span>
+            <span>JAMES<span class="dot">.</span></span>
+        </a>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#goals">Goals</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open navigation">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-grid"></div>
+
+    <div class="hero-content">
+
+        <div class="status">
+            <span class="status-dot"></span>
+            Engineering Student • Aspiring Mechatronics Engineer
+        </div>
+
+        <h1>
+            Building ideas into
+            <span>real-world solutions.</span>
+        </h1>
+
+        <p>
+            I'm James S. Victor, a student passionate about mechatronics,
+            electronics, programming and robotics. I enjoy understanding
+            how things work and turning ideas into practical projects.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn primary">
+                Explore My Projects
+                <span>→</span>
+            </a>
+
+            <a href="#contact" class="btn secondary">
+                Get In Touch
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+        <div class="circuit-card">
+
+            <div class="circuit-header">
+                <span>ENGINEERING LAB</span>
+                <span class="live">● SYSTEM READY</span>
+            </div>
+
+            <div class="circuit-board">
+
+                <div class="node node-1"></div>
+                <div class="node node-2"></div>
+                <div class="node node-3"></div>
+                <div class="node node-4"></div>
+
+                <div class="circuit-line line-1"></div>
+                <div class="circuit-line line-2"></div>
+                <div class="circuit-line line-3"></div>
+
+                <div class="chip">
+                    <div>ARDUINO</div>
+                    <small>UNO R3</small>
+                </div>
+
+            </div>
+
+            <div class="terminal">
+                <span>></span>
+                <span id="terminalText">Initializing engineering system...</span>
+                <span class="cursor">_</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section" id="about">
+
+    <div class="section-heading">
+
+        <span class="section-number">01</span>
+
+        <div>
+            <p class="eyebrow">ABOUT ME</p>
+
+            <h2>
+                Curiosity drives<br>
+                my engineering journey.
+            </h2>
+        </div>
+
+    </div>
+
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <p class="large-text">
+                I have always been fascinated by the question:
+                <strong>"How does this work?"</strong>
+            </p>
+
+            <p>
+                My name is <strong>James S. Victor</strong>. I am a student
+                at <strong>B. W. Harris Episcopal High School</strong> in
+                Monrovia, Liberia, with a strong interest in engineering
+                and technology.
+            </p>
+
+            <p>
+                My interests include electronics, programming, Arduino,
+                robotics and automation. I enjoy learning by building,
+                experimenting and solving practical problems.
+            </p>
+
+            <p>
+                My long-term goal is to become a
+                <strong>Mechatronics Engineer</strong> and work at the
+                intersection of mechanical systems, electronics, software
+                and intelligent machines.
+            </p>
+
+        </div>
+
+
+        <div class="about-stats">
+
+            <div class="stat">
+                <span class="stat-number">01</span>
+                <span class="stat-label">
+                    Engineering<br>
+                    Mindset
+                </span>
+            </div>
+
+            <div class="stat">
+                <span class="stat-number">03+</span>
+                <span class="stat-label">
+                    Projects &<br>
+                    Experiments
+                </span>
+            </div>
+
+            <div class="stat">
+                <span class="stat-number">∞</span>
+                <span class="stat-label">
+                    Things I<br>
+                    Want To Build
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section class="section projects-section" id="projects">
+
+    <div class="section-heading">
+
+        <span class="section-number">02</span>
+
+        <div>
+
+            <p class="eyebrow">PROJECTS</p>
+
+            <h2>
+                Things I've<br>
+                built & explored.
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="project-grid">
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card featured">
+
+          <div class="project-image real-project">
+
+    <img
+        src="assets/images/traffic-light-circuit.png"
+        alt="James S. Victor's Smart Traffic Light System built in Tinkercad"
+    >
+
+    <span class="image-label">
+        REAL PROJECT • TINKERCAD
+    </span>
+
+</div>
+
+<div class="project-code-preview">
+
+    <img
+        src="assets/images/traffic-light-code.png"
+        alt="Arduino programming logic for the Smart Traffic Light System"
+    >
+
+    <div class="code-overlay">
+        <span>ARDUINO LOGIC</span>
+    </div>
+
+</div>
+            <div class="project-content">
+
+                <div class="project-meta">
+                    <span>01</span>
+                    <span>Electronics & Automation</span>
+                </div>
+
+                <h3>
+                    Smart Traffic Light System
+                </h3>
+
+                <p>
+                    An Arduino-based traffic light project developed in
+                    Tinkercad. The system combines vehicle traffic lights
+                    with pedestrian controls, an ultrasonic distance sensor,
+                    pedestrian button and buzzer.
+                </p>
+
+                <div class="project-details">
+
+                    <div>
+                        <strong>Platform</strong>
+                        <span>Tinkercad</span>
+                    </div>
+
+                    <div>
+                        <strong>Controller</strong>
+                        <span>Arduino Uno</span>
+                    </div>
+
+                    <div>
+                        <strong>Completed</strong>
+                        <span>August 2026</span>
+                    </div>
+
+                </div>
+
+                <div class="tags">
+
+                    <span>Arduino</span>
+                    <span>C++</span>
+                    <span>Tinkercad</span>
+                    <span>Ultrasonic Sensor</span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <div class="project-image fellowship">
+
+                <span class="project-symbol">✦</span>
+
+                <span>
+                    WEB DEVELOPMENT
+                </span>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-meta">
+                    <span>02</span>
+                    <span>Web Development</span>
+                </div>
+
+                <h3>
+                    Christian Fellowship Website
+                </h3>
+
+                <p>
+                    A website project created to provide a digital platform
+                    for a Christian fellowship, combining web design,
+                    responsive layouts and interactive features.
+                </p>
+
+                <div class="tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Web Design</span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <div class="project-image circuit-project">
+
+                <div class="two-color-bulbs">
+
+                    <span class="bulb-one"></span>
+                    <span class="bulb-two"></span>
+
+                </div>
+
+                <span class="circuit-label">
+                    CIRCUIT EXPERIMENT
+                </span>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-meta">
+                    <span>03</span>
+                    <span>Electronics</span>
+                </div>
+
+                <h3>
+                    Two-Color Bulb Circuit
+                </h3>
+
+                <p>
+                    A combined circuit experiment using two-color bulbs to
+                    explore electrical connections, component behavior and
+                    circuit control.
+                </p>
+
+                <div class="tags">
+
+                    <span>Electronics</span>
+                    <span>Circuits</span>
+                    <span>Components</span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- FUTURE PROJECT -->
+
+        <article class="project-card">
+
+            <div class="project-image coming-soon">
+
+                <span class="big-icon">🤖</span>
+
+                <span>
+                    NEXT PROJECT
+                </span>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-meta">
+                    <span>04</span>
+                    <span>Future Project</span>
+                </div>
+
+                <h3>
+                    Robotics & Mechatronics
+                </h3>
+
+                <p>
+                    Future projects will explore robotics, automation,
+                    sensors, embedded systems and intelligent machines.
+                </p>
+
+                <div class="tags">
+
+                    <span>Robotics</span>
+                    <span>Automation</span>
+                    <span>Mechatronics</span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="section skills-section" id="skills">
+
+    <div class="section-heading">
+
+        <span class="section-number">03</span>
+
+        <div>
+
+            <p class="eyebrow">SKILLS & TOOLS</p>
+
+            <h2>
+                What I'm learning<br>
+                and building with.
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+
+        <div class="skill-category">
+
+            <span class="skill-number">01</span>
+
+            <h3>Programming</h3>
+
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>C++ / Arduino</li>
+            </ul>
+
+        </div>
+
+
+        <div class="skill-category">
+
+            <span class="skill-number">02</span>
+
+            <h3>Engineering</h3>
+
+            <ul>
+                <li>Electronics</li>
+                <li>Arduino</li>
+                <li>Circuit Design</li>
+                <li>Sensor Integration</li>
+            </ul>
+
+        </div>
+
+
+        <div class="skill-category">
+
+            <span class="skill-number">03</span>
+
+            <h3>Tools</h3>
+
+            <ul>
+                <li>Tinkercad</li>
+                <li>Visual Studio Code</li>
+                <li>Git & GitHub</li>
+                <li>Firebase</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= GOALS ================= -->
+
+<section class="section goals-section" id="goals">
+
+    <div class="goal-card">
+
+        <div class="goal-content">
+
+            <p class="eyebrow">
+                MY DIRECTION
+            </p>
+
+            <h2>
+                From student
+                <span>to engineer.</span>
+            </h2>
+
+            <p>
+                My goal is to become a skilled Mechatronics Engineer who
+                can combine mechanical systems, electronics, programming
+                and automation to solve real-world problems.
+            </p>
+
+            <p>
+                I am seeking an engineering internship because I want to
+                move beyond classroom learning and gain hands-on experience.
+                I want to learn from experienced engineers, contribute to
+                real projects and develop the professional skills required
+                for my future career.
+            </p>
+
+        </div>
+
+
+        <div class="goal-timeline">
+
+            <div class="timeline-item active">
+
+                <span>NOW</span>
+
+                <div>
+                    <strong>Learn</strong>
+
+                    <small>
+                        Build projects and develop technical skills
+                    </small>
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <span>NEXT</span>
+
+                <div>
+                    <strong>Experience</strong>
+
+                    <small>
+                        Gain real-world engineering experience
+                    </small>
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <span>FUTURE</span>
+
+                <div>
+                    <strong>Engineer</strong>
+
+                    <small>
+                        Design innovative technology
+                    </small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section contact-section" id="contact">
+
+    <div class="contact-box">
+
+        <div>
+
+            <p class="eyebrow">
+                LET'S CONNECT
+            </p>
+
+            <h2>
+                Have an opportunity?
+                <span>Let's talk.</span>
+            </h2>
+
+            <p>
+                I am always interested in learning, building and connecting
+                with people working in engineering and technology.
+            </p>
+
+        </div>
+
+
+        <a
+            href="mailto:jamiclb231@gmail.com"
+            class="contact-button"
+        >
+            Email Me →
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            JAMES<span>.</span>
+        </div>
+
+        <p>
+            Engineering • Technology • Innovation
+        </p>
+
+        <p class="copyright">
+            © <span id="year"></span>
+            James S. Victor
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
